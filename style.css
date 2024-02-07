@@ -33,7 +33,8 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+button:hover,
+header:hover,
+footer:hover {
     background-color: #7CCD7C; /* Slightly darker shade on hover */
 }
-
