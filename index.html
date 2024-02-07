@@ -3,28 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Pet Pal</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav>
+        <ul class="toolbar">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#services">OUR SERVICES</a></li>
+            <li><a href="#contact">CONTACT US</a></li>
+        </ul>
+    </nav>
+
     <header>
         <h1>WELCOME TO PET PAL</h1>
         <p>Your Trusted Dog Walking Service</p>
     </header>
-    
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to Pet Pal, your trusted dog walking service. We provide professional dog walking services tailored to meet the specific needs of your furry friends.</p>
+    </section>
+
     <section id="about">
-        <h2>About Pet Pal</h2>
+        <h2>About Us</h2>
         <p>At Pet Pal, we are a team of experienced and passionate dog walkers. We understand that every dog has unique needs when it comes to exercise and socialization, and we work closely with you to create a customized walking plan that meets your dog's specific needs. Our team is dedicated to providing the highest level of care and attention to your furry family member.</p>
     </section>
 
-    <section id="walk">
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>Our services include:</p>
+        <ul>
+            <li>Regular dog walking sessions</li>
+            <li>Specialized care for senior dogs</li>
+            <li>Group socialization outings</li>
+            <li>Customized exercise plans</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to schedule a walk, feel free to contact us using the form below:</p>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <section id="schedule">
         <h2>Schedule a Walk Today</h2>
-        <button id="scheduleButton">Schedule a Walk</button>
+        <form id="scheduleForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Schedule Now</button>
+        </form>
     </section>
 
     <footer>
         <p>&copy; 2024 Pet Pal. All rights reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
 
