@@ -5,6 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Pal</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Additional CSS for Contact Form */
+        #contactForm {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        #contactForm label {
+            flex: 0 0 100px; /* Set a fixed width for labels */
+            margin-right: 10px;
+            text-align: right;
+        }
+
+        #contactForm input,
+        #contactForm textarea {
+            flex: 1; /* Fill remaining space */
+            min-width: 200px; /* Set a minimum width */
+        }
+
+        #contactForm button {
+            flex: 0 0 100%; /* Full width */
+        }
+    </style>
 </head>
 <body>
     <nav>
@@ -65,4 +89,5 @@
     <script src="script.js"></script>
 </body>
 </html>
+
 
