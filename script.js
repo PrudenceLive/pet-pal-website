@@ -1,14 +1,7 @@
-// Array of paw image filenames
-const pawImages = ['paw1.jpg', 'paw2.jpg', 'paw3.jpg', 'paw4.jpg', 'paw5.jpg'];
-
-// Function to generate a random paw image
 function getRandomPawImage() {
-    // Generate a random index within the range of pawImages array length
+    const pawImages = ['paw1.jpg', 'paw2.jpg', 'paw3.jpg', 'paw4.jpg', 'paw5.jpg'];
     const randomIndex = Math.floor(Math.random() * pawImages.length);
-    // Get the random paw image filename
-    const randomPawImage = pawImages[randomIndex];
-    // Return the path to the random paw image
-    return `images/${randomPawImage}`; // Assuming the images directory is named "images"
+    return `images/${pawImages[randomIndex]}`;
 }
 
 // Update the paw image source when the page loads
