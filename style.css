@@ -92,6 +92,12 @@ footer:hover {
     margin: 0 10px; /* Add margin space between each dog image */
 }
 
+button:hover,
+header:hover,
+footer:hover {
+    background-color: #7CCD7C; /* Slightly darker shade on hover */
+}
+
 /* Title styles */
 #home:hover h2,
 #about:hover h2,
