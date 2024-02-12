@@ -87,11 +87,6 @@ footer:hover {
     margin-top: 20px; /* Add margin space at the top */
 }
 
-.dog-images img {
-    width: 150px; /* The width of each dog image */
-    margin: 0 10px; /* Add margin space between each dog image */
-}
-
 /* CSS styles for dog images */
 .dog-container {
     display: flex;
