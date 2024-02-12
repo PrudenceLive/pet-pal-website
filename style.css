@@ -36,7 +36,7 @@ button {
 button:hover,
 header:hover,
 footer:hover {
-    background-color: #7CCD7C; /* Slightly darker shade on hover */
+    background-color: #F5F5F5; /* Slightly darker shade on hover */
 }
 
 /* Additional CSS for Contact Form */
@@ -95,7 +95,7 @@ footer:hover {
 button:hover,
 header:hover,
 footer:hover {
-    background-color: #7CCD7C; /* Slightly darker shade on hover */
+    background-color: #F5F5F5; /* Slightly darker shade on hover */
 }
 
 /* Title styles */
@@ -103,7 +103,7 @@ footer:hover {
 #about:hover h2,
 #services:hover h2,
 #contact:hover h2 {
-    background-color: #7CCD7C; /* Slightly darker shade on hover */
+    background-color: #F5F5F5; /* Slightly darker shade on hover */
     color: #fff; /* Light text color for contrast */
 }
 
