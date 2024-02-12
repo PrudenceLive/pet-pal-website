@@ -114,6 +114,7 @@ footer:hover {
 #home:hover h2,
 #about:hover h2,
 #services:hover h2,
+#members h2,
 #contact:hover h2 {
     background-color: #F5F5F5; /* Slightly darker shade on hover */
     color: #fff; /* Light text color for contrast */
