@@ -82,3 +82,14 @@ footer:hover {
     background: linear-gradient(to bottom, #6b6b6b, #464646); /* Slightly darker shade on hover */
 }
 
+.dog-images {
+    text-align: center; /* Center the images horizontally */
+    margin-top: 20px; /* Add margin space at the top */
+}
+
+.dog-images img {
+    width: 150px; /* The width of each dog image */
+    margin: 0 10px; /* Add margin space between each dog image */
+}
+
+
