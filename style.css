@@ -92,6 +92,18 @@ footer:hover {
     margin: 0 10px; /* Add margin space between each dog image */
 }
 
+/* CSS styles for dog images */
+.dog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dog-image {
+    width: 30%; /*  width */
+    margin: 10px; /*  margin  */
+}
+
 button:hover,
 header:hover,
 footer:hover {
