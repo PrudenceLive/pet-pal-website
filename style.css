@@ -92,4 +92,13 @@ footer:hover {
     margin: 0 10px; /* Add margin space between each dog image */
 }
 
+/* Title styles */
+#home:hover h2,
+#about:hover h2,
+#services:hover h2,
+#contact:hover h2 {
+    background-color: #7CCD7C; /* Slightly darker shade on hover */
+    color: #fff; /* Light text color for contrast */
+}
+
 
