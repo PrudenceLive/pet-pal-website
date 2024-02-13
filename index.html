@@ -94,6 +94,29 @@
             const dogImages = document.querySelectorAll('.dog-image');
             dogImages.forEach(image => {
                 image.src = getRandomPawImage();
+         }
+         
+    <script src="script.js"></script>
+    <script>
+        // Function to get the user's current location
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+            } else {
+                alert("Geolocation is not supported by this browser.");
+            }
+        }
+
+        // Function to display the user's current location
+        function showPosition(position) {
+            var latitude = position.coords.latitude;
+            var longitude = position.coords.longitude;
+            alert("Your current location is: " + latitude + ", " + longitude);
+            // You can use the latitude and longitude values to perform location-based tasks in your application
+        }
+
+        // Call the getLocation function, you can trigger it based on user interactions or events
+        getLocation();
             });
         };
     </script>
