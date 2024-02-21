@@ -1,5 +1,6 @@
-PetPal
+PetPal 
 Introduction
+
 Welcome to PetPal, your one-stop platform for connecting pet owners with trusted dog walking services. PetPal simplifies the process of scheduling walks, communicating with walkers, and tracking your pet's activities. Whether you're a pet owner looking for reliable services or a dog walker seeking clients, PetPal has got you covered.
 
 Links
